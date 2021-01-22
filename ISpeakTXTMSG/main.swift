@@ -27,6 +27,8 @@ func translate(phrase shortForm: String) -> String {
         return "totally awesome"
     } else if phrase == "TTYL" {
         return "talk to you later"
+    } else {
+        return phrase
     }
 
 }

@@ -32,7 +32,6 @@ let evening = Int(readLine()!)!
 print("Number of weekend minutes?")
 let weekend = Int(readLine()!)!
 
-// INPUT
 
 // PROCESS
 //
@@ -85,7 +84,7 @@ func compareCosts(day: Int, evening: Int, weekend: Int) -> String {
     if a > b {
         result += "Plan B is cheapest."
     } else if a == b {
-        result += "Plan A and B are the same price."
+        result += "Plans A and B are the same price."
     } else {
         result += "Plan A is cheapest."
     }
