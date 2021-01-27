@@ -36,7 +36,7 @@ func shift (n: Int, k: Int) -> Int {
             output+=toAdd
         }
     }
-return output
+    return output
 }
 
 //OUTPUT

@@ -16,8 +16,6 @@ print("==============")
 // INPUT
 
 // Ask for a phrase
-print("Enter phrase> ", terminator: "")
-let phrase = readLine()!
 
 // PROCESS
 //Parameters are inputs to the function
@@ -27,6 +25,9 @@ let phrase = readLine()!
 //external name is phrase
 //internal name is Shortform
 func translate(phrase shortForm: String) -> String {
+    repeat {
+    print("Enter phrase> ", terminator: "")
+    let phrase = readLine()!
 
     // NOTE: Instead of an "if statement" consider using a different type of Swift structure to handle all the different possible cases...
     switch shortForm {
@@ -56,6 +57,8 @@ func translate(phrase shortForm: String) -> String {
         return "talk to you later"
     default:
         return shortForm
+    }} while shortform != "talk to you later" {
+        <#code#>
     }
 
 }
