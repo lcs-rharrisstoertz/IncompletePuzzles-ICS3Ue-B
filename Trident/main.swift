@@ -31,36 +31,74 @@ print("   ", terminator: "")
 let handleLength = Int(readLine()!)!
 
 // OUTPUT
+var output = ""
 
-// Produce top of trident according to length given
-for _ in 1...tineLength {
-    // Print the tines
-    for _ in 1...3 {
-        
-        // Print part of a tine
-        print("*", terminator: "")
-        
-        // Print space between tines
-        for _ in 1...spacing {
-            print(" ", terminator: "")
+func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String {
+    // Produce top of trident according to length given
+    for _ in 1...tineLength {
+        // Print the tines
+        for _ in 1...3 {
+            
+            // Print part of a tine
+            output += ("*")
+            
+            // Print space between tines
+            for _ in 1...spacing {
+                output += (" ")
+            }
+            
         }
-        
+        // Go to next line of output
+        output += ("\n")
     }
-    // Go to next line of output
-    print("")
-}
-for _ in 1...spacing*2+3 {
-    print("*", terminator: "")
-}
-print("")
+    for _ in 1...spacing*2+3 {
+        output += ("*")
+    }
+    output += ("\n")
 
-for _ in 1...handleLength {
-    for _ in 1...spacing+1{
-        print(" ", terminator: "")
+    for _ in 1...handleLength {
+        for _ in 1...spacing+1{
+            output += (" ")
+        }
+        output += ("*")
+        for _ in 1...spacing+1{
+            output += (" ")
+        }
+        output += ("\n")
     }
-    print ("*", terminator: "")
-    for _ in 1...spacing+1{
-        print(" ", terminator: "")
-    }
-    print("")
+    return output
 }
+print (drawTrident(tineLength: tineLength, tineSpacing: spacing, handleLength: handleLength))
+
+//// Produce top of trident according to length given
+//for _ in 1...tineLength {
+//    // Print the tines
+//    for _ in 1...3 {
+//
+//        // Print part of a tine
+//        print("*", terminator: "")
+//
+//        // Print space between tines
+//        for _ in 1...spacing {
+//            print(" ", terminator: "")
+//        }
+//
+//    }
+//    // Go to next line of output
+//    print("")
+//}
+//for _ in 1...spacing*2+3 {
+//    print("*", terminator: "")
+//}
+//print("")
+//
+//for _ in 1...handleLength {
+//    for _ in 1...spacing+1{
+//        print(" ", terminator: "")
+//    }
+//    print ("*", terminator: "")
+//    for _ in 1...spacing+1{
+//        print(" ", terminator: "")
+//    }
+//    print("")
+//}
