@@ -33,9 +33,9 @@ let handleLength = Int(readLine()!)!
 // OUTPUT
 
 func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String {
-    var output = ""
+    var output = ""//reset output variable to empty
     // Produce top of trident according to length given
-    if tineLength > 1 {
+    if tineLength > 1 {//if the tines are longer than 1
         for _ in 1...tineLength {
             // Print the tines
             for _ in 1...2 {
@@ -47,15 +47,15 @@ func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String 
                     for _ in 1...tineSpacing {
                         output += (" ")
                     }
-                } else if tineSpacing == 1 {
+                } else if tineSpacing == 1 {//adds spaces between the tines
                     output += (" ")
                 }
             }
-            output += ("*")
+            output += ("*")//this prints one asterisk for the last trident tine
             // Go to next line of output
             output += ("\n")
-        }
-    } else if tineLength == 1 {
+        }//tine-printing loop ends- it will have repeated tineLength times to fully make all three tines
+    } else if tineLength == 1 {//if the tine length is one, it doesn't like creating the range, so it has its own program to print the tines without a range
         for _ in 1...3 {
             
             // Print part of a tine
@@ -68,13 +68,13 @@ func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String 
             } else if tineSpacing == 1 {
                 output += (" ")
             }
-        }
+        }//all tines are printed- if the tine length is 0, the program skips this part of the process
         // Go to next line of output
         output += ("\n")
     }
     
-    if spacing > 0 {
-        for _ in 1...(spacing*2) {
+    if tineSpacing > 0 {
+        for _ in 1...(tineSpacing*2) {
         output += ("*")
         }
     }
@@ -82,7 +82,7 @@ func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String 
     if handleLength != 0 {
         for _ in 1...handleLength {
             output += ("\n")
-            for _ in 1...spacing+1{
+            for _ in 1...tineSpacing+1{
                 output += (" ")
             }
             output += ("*")
