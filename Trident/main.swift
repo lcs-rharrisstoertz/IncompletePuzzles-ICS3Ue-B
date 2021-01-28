@@ -31,9 +31,9 @@ print("   ", terminator: "")
 let handleLength = Int(readLine()!)!
 
 // OUTPUT
-var output = ""
 
 func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String {
+    var output = ""
     // Produce top of trident according to length given
     if tineLength > 1 {
         for _ in 1...tineLength {
@@ -73,9 +73,12 @@ func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String 
         output += ("\n")
     }
     
-    for _ in 1...spacing*2+3 {
+    if spacing > 0 {
+        for _ in 1...(spacing*2) {
         output += ("*")
+        }
     }
+    output += ("***")
     if handleLength != 0 {
         for _ in 1...handleLength {
             output += ("\n")
