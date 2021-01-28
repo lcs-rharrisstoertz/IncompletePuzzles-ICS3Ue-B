@@ -38,7 +38,7 @@ func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String 
     if tineLength > 1 {
         for _ in 1...tineLength {
             // Print the tines
-            for _ in 1...3 {
+            for _ in 1...2 {
                 
                 // Print part of a tine
                 output += ("*")
@@ -51,6 +51,7 @@ func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String 
                     output += (" ")
                 }
             }
+            output += ("*")
             // Go to next line of output
             output += ("\n")
         }
