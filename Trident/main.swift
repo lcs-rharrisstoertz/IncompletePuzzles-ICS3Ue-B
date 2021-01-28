@@ -35,32 +35,54 @@ var output = ""
 
 func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String {
     // Produce top of trident according to length given
-    for _ in 1...tineLength {
-        // Print the tines
+    if tineLength > 1 {
+        for _ in 1...tineLength {
+            // Print the tines
+            for _ in 1...3 {
+                
+                // Print part of a tine
+                output += ("*")
+                
+                if tineSpacing > 1 {
+                    for _ in 1...tineSpacing {
+                        output += (" ")
+                    }
+                } else if tineSpacing == 1 {
+                    output += (" ")
+                }
+            }
+            // Go to next line of output
+            output += ("\n")
+        }
+    } else if tineLength == 1 {
         for _ in 1...3 {
             
             // Print part of a tine
             output += ("*")
             
-            // Print space between tines
-            for _ in 1...spacing {
+            if tineSpacing > 1 {
+                for _ in 1...tineSpacing {
+                    output += (" ")
+                }
+            } else if tineSpacing == 1 {
                 output += (" ")
             }
-            
         }
         // Go to next line of output
         output += ("\n")
     }
+    
     for _ in 1...spacing*2+3 {
         output += ("*")
     }
-
-    for _ in 1...handleLength {
-        output += ("\n")
-        for _ in 1...spacing+1{
-            output += (" ")
+    if handleLength != 0 {
+        for _ in 1...handleLength {
+            output += ("\n")
+            for _ in 1...spacing+1{
+                output += (" ")
+            }
+            output += ("*")
         }
-        output += ("*")
     }
     return output
 }
@@ -87,17 +109,13 @@ print (drawTrident(tineLength: tineLength, tineSpacing: spacing, handleLength: h
 //    for _ in 1...spacing*2+3 {
 //        output += ("*")
 //    }
-//    output += ("\n")
 //
 //    for _ in 1...handleLength {
+//        output += ("\n")
 //        for _ in 1...spacing+1{
 //            output += (" ")
 //        }
 //        output += ("*")
-//        for _ in 1...spacing+1{
-//            output += (" ")
-//        }
-//        output += ("\n")
 //    }
 //    return output
 //}
