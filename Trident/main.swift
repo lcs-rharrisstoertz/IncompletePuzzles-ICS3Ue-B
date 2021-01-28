@@ -56,7 +56,7 @@ func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String 
             output += ("\n")
         }//tine-printing loop ends- it will have repeated tineLength times to fully make all three tines
     } else if tineLength == 1 {//if the tine length is one, it doesn't like creating the range, so it has its own program to print the tines without a range
-        for _ in 1...3 {
+        for _ in 1...2 {
             
             // Print part of a tine
             output += ("*")
@@ -68,7 +68,9 @@ func drawTrident(tineLength: Int, tineSpacing: Int, handleLength: Int)-> String 
             } else if tineSpacing == 1 {
                 output += (" ")
             }
-        }//all tines are printed- if the tine length is 0, the program skips this part of the process
+        }
+        output += ("*")
+        //all tines are printed- if the tine length is 0, the program skips this part of the process
         // Go to next line of output
         output += ("\n")
     }
