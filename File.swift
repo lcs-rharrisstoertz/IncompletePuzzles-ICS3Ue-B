@@ -1,3 +1,12 @@
+//
+//  File.swift
+//  IncompletePuzzles
+//
+//  Created by Harris-Stoertz, Rowan on 2021-02-02.
+//
+
+import Foundation
+
 import Cocoa
 
 extension Int {
