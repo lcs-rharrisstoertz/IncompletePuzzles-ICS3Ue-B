@@ -16,10 +16,14 @@ print("===========")
 // INPUT
 
 // Get the number to be shifted
-let n = Int(readLine()!)!
+let n = Int.collectInput(withPrompt: "",
+                           minimum: 0,
+                           maximum: 10000)
 
 // How many times should we shift?
-let k = Int(readLine()!)!
+let k = Int.collectInput(withPrompt: "",
+                           minimum: 0,
+                           maximum: 5)
 
 // PROCESS
 
