@@ -52,8 +52,8 @@
 		252CC64025BF27EA00B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 		252CC64B25BF27F300B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7364C02528B54400F3914E /* main.swift */; };
 		258B8CBF25BB420A003CFEEA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736530252B64C800F3914E /* main.swift */; };
-		25EE532425C9DED600F5C995 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE532325C9DED600F5C995 /* File.swift */; };
-		25EE532525C9DED600F5C995 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE532325C9DED600F5C995 /* File.swift */; };
+		25EE532425C9DED600F5C995 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE532325C9DED600F5C995 /* Extension.swift */; };
+		25EE532525C9DED600F5C995 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE532325C9DED600F5C995 /* Extension.swift */; };
 		8140D46025BB3241006B6DBB /* TheCellSellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D45F25BB3241006B6DBB /* TheCellSellTests.swift */; };
 		8140D49725BB3324006B6DBB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D96B252564CB0090B2E0 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -166,7 +166,7 @@
 		0EE0D95E252563ED0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0EE0D969252564CB0090B2E0 /* TheCellSell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheCellSell; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE0D96B252564CB0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		25EE532325C9DED600F5C995 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		25EE532325C9DED600F5C995 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCellSellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140D45F25BB3241006B6DBB /* TheCellSellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCellSellTests.swift; sourceTree = "<group>"; };
 		8140D46125BB3241006B6DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -363,7 +363,7 @@
 		0EE0D943252563B00090B2E0 = {
 			isa = PBXGroup;
 			children = (
-				25EE532325C9DED600F5C995 /* File.swift */,
+				25EE532325C9DED600F5C995 /* Extension.swift */,
 				0EE0D96A252564CB0090B2E0 /* TheCellSell */,
 				0E73652F252B64C800F3914E /* ISpeakTXTMSG */,
 				0E736520252B632200F3914E /* ShiftySums */,
@@ -795,7 +795,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25EE532525C9DED600F5C995 /* File.swift in Sources */,
+				25EE532525C9DED600F5C995 /* Extension.swift in Sources */,
 				0EE0D95F252563ED0090B2E0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -804,7 +804,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25EE532425C9DED600F5C995 /* File.swift in Sources */,
+				25EE532425C9DED600F5C995 /* Extension.swift in Sources */,
 				0EE0D96C252564CB0090B2E0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
