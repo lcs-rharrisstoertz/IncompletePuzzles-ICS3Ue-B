@@ -30,6 +30,8 @@ let upper = Int(readLine()!)!
 
 // PROCESS
 
+var RSANumbers = 0
+
 // Count the number of divisors in the given Number
 func divisorCount(of givenNumber: Int) -> Int {
     
@@ -42,12 +44,12 @@ func divisorCount(of givenNumber: Int) -> Int {
         // What is the remainder?
         let remainder = givenNumber % i
         
-        // DEBUG output...
-        print("\(givenNumber) \\ \(i) has a remainder of \(remainder)")
+//        // DEBUG output...
+//        print("\(givenNumber) \\ \(i) has a remainder of \(remainder)")
         
         // TODO: Add some code here... we need to keep track of how many divisors there are
         if remainder == 0 {
-            
+            divisorCount += 1
         }
         
     }
@@ -57,5 +59,12 @@ func divisorCount(of givenNumber: Int) -> Int {
     
 }
 
-// How many divisors does a number have?
-print("5 has this many divisors... \(divisorCount(of: 5))")
+
+for givenNumber in lower...upper {
+    if divisorCount(of: givenNumber) == 4 {
+        RSANumbers += 1
+    }
+}
+
+
+print("The number of RSA numbers between \(lower) and \(upper) is \(RSANumbers)")
