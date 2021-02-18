@@ -30,8 +30,6 @@ let upper = Int(readLine()!)!
 
 // PROCESS
 
-var RSANumbers = 0
-
 // Count the number of divisors in the given Number
 func divisorCount(of givenNumber: Int) -> Int {
     
@@ -59,12 +57,12 @@ func divisorCount(of givenNumber: Int) -> Int {
     
 }
 
-
+func countOfRSANumbersFrom (lower: Int, upper: Int) -> String {
+var RSANumbers = 0
 for givenNumber in lower...upper {
     if divisorCount(of: givenNumber) == 4 {
         RSANumbers += 1
     }
 }
-
-
-print("The number of RSA numbers between \(lower) and \(upper) is \(RSANumbers)")
+    return ("The number of RSA numbers between \(lower) and \(upper) is \(RSANumbers)")
+}
