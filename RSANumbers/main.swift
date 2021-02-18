@@ -42,8 +42,8 @@ func divisorCount(of givenNumber: Int) -> Int {
         // What is the remainder?
         let remainder = givenNumber % i
         
-//        // DEBUG output...
-//        print("\(givenNumber) \\ \(i) has a remainder of \(remainder)")
+        //        // DEBUG output...
+        //        print("\(givenNumber) \\ \(i) has a remainder of \(remainder)")
         
         // TODO: Add some code here... we need to keep track of how many divisors there are
         if remainder == 0 {
@@ -58,11 +58,11 @@ func divisorCount(of givenNumber: Int) -> Int {
 }
 
 func countOfRSANumbersFrom (lower: Int, upper: Int) -> String {
-var RSANumbers = 0
-for givenNumber in lower...upper {
-    if divisorCount(of: givenNumber) == 4 {
-        RSANumbers += 1
+    var RSANumbers = 0
+    for givenNumber in lower...upper {
+        if divisorCount(of: givenNumber) == 4 {
+            RSANumbers += 1
+        }
     }
-}
     return ("The number of RSA numbers between \(lower) and \(upper) is \(RSANumbers)")
 }
