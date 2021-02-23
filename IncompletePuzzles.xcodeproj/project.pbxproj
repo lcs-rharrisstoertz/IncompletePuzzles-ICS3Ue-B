@@ -115,6 +115,73 @@
 		25034D9E25E47FB400304420 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D9B25E47FB300304420 /* Functions.swift */; };
 		25034D9F25E47FB400304420 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D9B25E47FB300304420 /* Functions.swift */; };
 		25034DA025E47FB400304420 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D9B25E47FB300304420 /* Functions.swift */; };
+		25034DAC25E4800900304420 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D9B25E47FB300304420 /* Functions.swift */; };
+		25034DAD25E4800900304420 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE532325C9DED600F5C995 /* Extension.swift */; };
+		25034DAE25E4800900304420 /* TheCellSell.xctestplan in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F603254B9325007530A3 /* TheCellSell.xctestplan */; };
+		25034DAF25E4800900304420 /* TheCellSellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140D45F25BB3241006B6DBB /* TheCellSellTests.swift */; };
+		25034DB025E4800900304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8140D46125BB3241006B6DBB /* Info.plist */; };
+		25034DB125E4800900304420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D96B252564CB0090B2E0 /* main.swift */; };
+		25034DB225E4800900304420 /* ISpeakTXTMSG.xctestplan in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F619254B9372007530A3 /* ISpeakTXTMSG.xctestplan */; };
+		25034DB325E4800900304420 /* j2.01.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F4A4254B4CC3007530A3 /* j2.01.out */; };
+		25034DB425E4800900304420 /* j2.01.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F4A5254B4CC3007530A3 /* j2.01.in */; };
+		25034DB525E4800900304420 /* ISpeakTXTMSGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F48A254B4C66007530A3 /* ISpeakTXTMSGTests.swift */; };
+		25034DB625E4800900304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F48C254B4C66007530A3 /* Info.plist */; };
+		25034DB725E4800900304420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736530252B64C800F3914E /* main.swift */; };
+		25034DB825E4800900304420 /* ShiftySums.xctestplan in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F618254B9357007530A3 /* ShiftySums.xctestplan */; };
+		25034DB925E4800900304420 /* j2.01.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7A254B28EA0014C595 /* j2.01.in */; };
+		25034DBA25E4800900304420 /* j2.01.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD72254B28EA0014C595 /* j2.01.out */; };
+		25034DBB25E4800900304420 /* j2.02.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7F254B28EA0014C595 /* j2.02.in */; };
+		25034DBC25E4800900304420 /* j2.02.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD75254B28EA0014C595 /* j2.02.out */; };
+		25034DBD25E4800900304420 /* j2.03.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6F254B28E90014C595 /* j2.03.in */; };
+		25034DBE25E4800900304420 /* j2.03.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD81254B28EB0014C595 /* j2.03.out */; };
+		25034DBF25E4800900304420 /* j2.04.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD80254B28EB0014C595 /* j2.04.in */; };
+		25034DC025E4800900304420 /* j2.04.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7E254B28EA0014C595 /* j2.04.out */; };
+		25034DC125E4800900304420 /* j2.05.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD69254B28E90014C595 /* j2.05.in */; };
+		25034DC225E4800A00304420 /* j2.05.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6B254B28E90014C595 /* j2.05.out */; };
+		25034DC325E4800A00304420 /* j2.06.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7B254B28EA0014C595 /* j2.06.in */; };
+		25034DC425E4800A00304420 /* j2.06.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD67254B28E90014C595 /* j2.06.out */; };
+		25034DC525E4800A00304420 /* j2.07.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD76254B28EA0014C595 /* j2.07.in */; };
+		25034DC625E4800A00304420 /* j2.07.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD71254B28EA0014C595 /* j2.07.out */; };
+		25034DC725E4800A00304420 /* j2.08.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD70254B28E90014C595 /* j2.08.in */; };
+		25034DC825E4800A00304420 /* j2.08.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6D254B28E90014C595 /* j2.08.out */; };
+		25034DC925E4800A00304420 /* j2.09.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6A254B28E90014C595 /* j2.09.in */; };
+		25034DCA25E4800A00304420 /* j2.09.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD77254B28EA0014C595 /* j2.09.out */; };
+		25034DCB25E4800A00304420 /* j2.10.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD84254B28EB0014C595 /* j2.10.in */; };
+		25034DCC25E4800A00304420 /* j2.10.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD68254B28E90014C595 /* j2.10.out */; };
+		25034DCD25E4800A00304420 /* j2.11.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD74254B28EA0014C595 /* j2.11.in */; };
+		25034DCE25E4800A00304420 /* j2.11.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD83254B28EB0014C595 /* j2.11.out */; };
+		25034DCF25E4800A00304420 /* j2.12.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7C254B28EA0014C595 /* j2.12.in */; };
+		25034DD025E4800A00304420 /* j2.12.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD82254B28EB0014C595 /* j2.12.out */; };
+		25034DD125E4800A00304420 /* j2.13.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7D254B28EA0014C595 /* j2.13.in */; };
+		25034DD225E4800A00304420 /* j2.13.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD78254B28EA0014C595 /* j2.13.out */; };
+		25034DD325E4800A00304420 /* j2.14.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD73254B28EA0014C595 /* j2.14.in */; };
+		25034DD425E4800A00304420 /* j2.14.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD79254B28EA0014C595 /* j2.14.out */; };
+		25034DD525E4800A00304420 /* j2.15.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6E254B28E90014C595 /* j2.15.in */; };
+		25034DD625E4800A00304420 /* j2.15.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6C254B28E90014C595 /* j2.15.out */; };
+		25034DD725E4800A00304420 /* ShiftySumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD4E254B280E0014C595 /* ShiftySumsTests.swift */; };
+		25034DD825E4800A00304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F640254B9589007530A3 /* Info.plist */; };
+		25034DD925E4800A00304420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736521252B632200F3914E /* main.swift */; };
+		25034DDA25E4800A00304420 /* Trident.xctestplan in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F602254B9301007530A3 /* Trident.xctestplan */; };
+		25034DDB25E4800A00304420 /* TridentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FBC9254B15500014C595 /* TridentTests.swift */; };
+		25034DDC25E4800A00304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FBCB254B15500014C595 /* Info.plist */; };
+		25034DDD25E4800A00304420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
+		25034DDE25E4800A00304420 /* RSANumbers.xctestplan in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F604254B933A007530A3 /* RSANumbers.xctestplan */; };
+		25034DDF25E4800A00304420 /* RSANumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FCB8254B23EE0014C595 /* RSANumbersTests.swift */; };
+		25034DE025E4800A00304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FCBA254B23EE0014C595 /* Info.plist */; };
+		25034DE125E4800A00304420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7364C02528B54400F3914E /* main.swift */; };
+		25034DE225E4800A00304420 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3725E478F600304420 /* Assets.xcassets */; };
+		25034DE325E4800A00304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3C25E478F600304420 /* Info.plist */; };
+		25034DE425E4800A00304420 /* Preview Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3A25E478F600304420 /* Preview Assets.xcassets */; };
+		25034DE525E4800A00304420 /* Trident in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95C252563ED0090B2E0 /* Trident */; };
+		25034DE625E4800A00304420 /* TheCellSell in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D969252564CB0090B2E0 /* TheCellSell */; };
+		25034DE725E4800A00304420 /* RSANumbers in Sources */ = {isa = PBXBuildFile; fileRef = 0E7364BE2528B54300F3914E /* RSANumbers */; };
+		25034DE825E4800A00304420 /* ShiftySums in Sources */ = {isa = PBXBuildFile; fileRef = 0E73651F252B632200F3914E /* ShiftySums */; };
+		25034DE925E4800A00304420 /* ISpeakTXTMSG in Sources */ = {isa = PBXBuildFile; fileRef = 0E73652E252B64C800F3914E /* ISpeakTXTMSG */; };
+		25034DEA25E4800A00304420 /* TridentTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FBC7254B15500014C595 /* TridentTests.xctest */; };
+		25034DEB25E4800A00304420 /* RSANumbersTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FCB6254B23EE0014C595 /* RSANumbersTests.xctest */; };
+		25034DEC25E4800A00304420 /* ShiftySumsTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD4C254B280E0014C595 /* ShiftySumsTests.xctest */; };
+		25034DED25E4800A00304420 /* ISpeakTXTMSGTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F488254B4C66007530A3 /* ISpeakTXTMSGTests.xctest */; };
+		25034DEE25E4800A00304420 /* TheCellSellTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */; };
 		252CC63525BF27E000B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736521252B632200F3914E /* main.swift */; };
 		252CC64025BF27EA00B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 		252CC64B25BF27F300B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7364C02528B54400F3914E /* main.swift */; };
@@ -1016,6 +1083,73 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25034DAC25E4800900304420 /* Functions.swift in Sources */,
+				25034DAD25E4800900304420 /* Extension.swift in Sources */,
+				25034DAE25E4800900304420 /* TheCellSell.xctestplan in Sources */,
+				25034DAF25E4800900304420 /* TheCellSellTests.swift in Sources */,
+				25034DB025E4800900304420 /* Info.plist in Sources */,
+				25034DB125E4800900304420 /* main.swift in Sources */,
+				25034DB225E4800900304420 /* ISpeakTXTMSG.xctestplan in Sources */,
+				25034DB325E4800900304420 /* j2.01.out in Sources */,
+				25034DB425E4800900304420 /* j2.01.in in Sources */,
+				25034DB525E4800900304420 /* ISpeakTXTMSGTests.swift in Sources */,
+				25034DB625E4800900304420 /* Info.plist in Sources */,
+				25034DB725E4800900304420 /* main.swift in Sources */,
+				25034DB825E4800900304420 /* ShiftySums.xctestplan in Sources */,
+				25034DB925E4800900304420 /* j2.01.in in Sources */,
+				25034DBA25E4800900304420 /* j2.01.out in Sources */,
+				25034DBB25E4800900304420 /* j2.02.in in Sources */,
+				25034DBC25E4800900304420 /* j2.02.out in Sources */,
+				25034DBD25E4800900304420 /* j2.03.in in Sources */,
+				25034DBE25E4800900304420 /* j2.03.out in Sources */,
+				25034DBF25E4800900304420 /* j2.04.in in Sources */,
+				25034DC025E4800900304420 /* j2.04.out in Sources */,
+				25034DC125E4800900304420 /* j2.05.in in Sources */,
+				25034DC225E4800A00304420 /* j2.05.out in Sources */,
+				25034DC325E4800A00304420 /* j2.06.in in Sources */,
+				25034DC425E4800A00304420 /* j2.06.out in Sources */,
+				25034DC525E4800A00304420 /* j2.07.in in Sources */,
+				25034DC625E4800A00304420 /* j2.07.out in Sources */,
+				25034DC725E4800A00304420 /* j2.08.in in Sources */,
+				25034DC825E4800A00304420 /* j2.08.out in Sources */,
+				25034DC925E4800A00304420 /* j2.09.in in Sources */,
+				25034DCA25E4800A00304420 /* j2.09.out in Sources */,
+				25034DCB25E4800A00304420 /* j2.10.in in Sources */,
+				25034DCC25E4800A00304420 /* j2.10.out in Sources */,
+				25034DCD25E4800A00304420 /* j2.11.in in Sources */,
+				25034DCE25E4800A00304420 /* j2.11.out in Sources */,
+				25034DCF25E4800A00304420 /* j2.12.in in Sources */,
+				25034DD025E4800A00304420 /* j2.12.out in Sources */,
+				25034DD125E4800A00304420 /* j2.13.in in Sources */,
+				25034DD225E4800A00304420 /* j2.13.out in Sources */,
+				25034DD325E4800A00304420 /* j2.14.in in Sources */,
+				25034DD425E4800A00304420 /* j2.14.out in Sources */,
+				25034DD525E4800A00304420 /* j2.15.in in Sources */,
+				25034DD625E4800A00304420 /* j2.15.out in Sources */,
+				25034DD725E4800A00304420 /* ShiftySumsTests.swift in Sources */,
+				25034DD825E4800A00304420 /* Info.plist in Sources */,
+				25034DD925E4800A00304420 /* main.swift in Sources */,
+				25034DDA25E4800A00304420 /* Trident.xctestplan in Sources */,
+				25034DDB25E4800A00304420 /* TridentTests.swift in Sources */,
+				25034DDC25E4800A00304420 /* Info.plist in Sources */,
+				25034DDD25E4800A00304420 /* main.swift in Sources */,
+				25034DDE25E4800A00304420 /* RSANumbers.xctestplan in Sources */,
+				25034DDF25E4800A00304420 /* RSANumbersTests.swift in Sources */,
+				25034DE025E4800A00304420 /* Info.plist in Sources */,
+				25034DE125E4800A00304420 /* main.swift in Sources */,
+				25034DE225E4800A00304420 /* Assets.xcassets in Sources */,
+				25034DE325E4800A00304420 /* Info.plist in Sources */,
+				25034DE425E4800A00304420 /* Preview Assets.xcassets in Sources */,
+				25034DE525E4800A00304420 /* Trident in Sources */,
+				25034DE625E4800A00304420 /* TheCellSell in Sources */,
+				25034DE725E4800A00304420 /* RSANumbers in Sources */,
+				25034DE825E4800A00304420 /* ShiftySums in Sources */,
+				25034DE925E4800A00304420 /* ISpeakTXTMSG in Sources */,
+				25034DEA25E4800A00304420 /* TridentTests.xctest in Sources */,
+				25034DEB25E4800A00304420 /* RSANumbersTests.xctest in Sources */,
+				25034DEC25E4800A00304420 /* ShiftySumsTests.xctest in Sources */,
+				25034DED25E4800A00304420 /* ISpeakTXTMSGTests.xctest in Sources */,
+				25034DEE25E4800A00304420 /* TheCellSellTests.xctest in Sources */,
 				25034D3625E478DB00304420 /* ContentView.swift in Sources */,
 				25034D3425E478DB00304420 /* iOS_TridentApp.swift in Sources */,
 			);
