@@ -48,6 +48,68 @@
 		0E736531252B64C800F3914E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736530252B64C800F3914E /* main.swift */; };
 		0EE0D95F252563ED0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 		0EE0D96C252564CB0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D96B252564CB0090B2E0 /* main.swift */; };
+		25034D3425E478DB00304420 /* iOS_TridentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3325E478DB00304420 /* iOS_TridentApp.swift */; };
+		25034D3625E478DB00304420 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3525E478DB00304420 /* ContentView.swift */; };
+		25034D3825E478F600304420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25034D3725E478F600304420 /* Assets.xcassets */; };
+		25034D3B25E478F600304420 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25034D3A25E478F600304420 /* Preview Assets.xcassets */; };
+		25034D5625E4792700304420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
+		25034D5725E4793700304420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736530252B64C800F3914E /* main.swift */; };
+		25034D5825E4793700304420 /* ShiftySums.xctestplan in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F618254B9357007530A3 /* ShiftySums.xctestplan */; };
+		25034D5925E4793700304420 /* j2.01.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7A254B28EA0014C595 /* j2.01.in */; };
+		25034D5A25E4793700304420 /* j2.01.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD72254B28EA0014C595 /* j2.01.out */; };
+		25034D5B25E4793700304420 /* j2.02.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7F254B28EA0014C595 /* j2.02.in */; };
+		25034D5C25E4793700304420 /* j2.02.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD75254B28EA0014C595 /* j2.02.out */; };
+		25034D5D25E4793700304420 /* j2.03.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6F254B28E90014C595 /* j2.03.in */; };
+		25034D5E25E4793700304420 /* j2.03.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD81254B28EB0014C595 /* j2.03.out */; };
+		25034D5F25E4793700304420 /* j2.04.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD80254B28EB0014C595 /* j2.04.in */; };
+		25034D6025E4793700304420 /* j2.04.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7E254B28EA0014C595 /* j2.04.out */; };
+		25034D6125E4793700304420 /* j2.05.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD69254B28E90014C595 /* j2.05.in */; };
+		25034D6225E4793700304420 /* j2.05.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6B254B28E90014C595 /* j2.05.out */; };
+		25034D6325E4793700304420 /* j2.06.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7B254B28EA0014C595 /* j2.06.in */; };
+		25034D6425E4793700304420 /* j2.06.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD67254B28E90014C595 /* j2.06.out */; };
+		25034D6525E4793700304420 /* j2.07.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD76254B28EA0014C595 /* j2.07.in */; };
+		25034D6625E4793700304420 /* j2.07.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD71254B28EA0014C595 /* j2.07.out */; };
+		25034D6725E4793700304420 /* j2.08.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD70254B28E90014C595 /* j2.08.in */; };
+		25034D6825E4793700304420 /* j2.08.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6D254B28E90014C595 /* j2.08.out */; };
+		25034D6925E4793700304420 /* j2.09.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6A254B28E90014C595 /* j2.09.in */; };
+		25034D6A25E4793700304420 /* j2.09.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD77254B28EA0014C595 /* j2.09.out */; };
+		25034D6B25E4793700304420 /* j2.10.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD84254B28EB0014C595 /* j2.10.in */; };
+		25034D6C25E4793700304420 /* j2.10.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD68254B28E90014C595 /* j2.10.out */; };
+		25034D6D25E4793700304420 /* j2.11.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD74254B28EA0014C595 /* j2.11.in */; };
+		25034D6E25E4793700304420 /* j2.11.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD83254B28EB0014C595 /* j2.11.out */; };
+		25034D6F25E4793700304420 /* j2.12.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7C254B28EA0014C595 /* j2.12.in */; };
+		25034D7025E4793800304420 /* j2.12.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD82254B28EB0014C595 /* j2.12.out */; };
+		25034D7125E4793800304420 /* j2.13.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD7D254B28EA0014C595 /* j2.13.in */; };
+		25034D7225E4793800304420 /* j2.13.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD78254B28EA0014C595 /* j2.13.out */; };
+		25034D7325E4793800304420 /* j2.14.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD73254B28EA0014C595 /* j2.14.in */; };
+		25034D7425E4793800304420 /* j2.14.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD79254B28EA0014C595 /* j2.14.out */; };
+		25034D7525E4793800304420 /* j2.15.in in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6E254B28E90014C595 /* j2.15.in */; };
+		25034D7625E4793800304420 /* j2.15.out in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD6C254B28E90014C595 /* j2.15.out */; };
+		25034D7725E4793800304420 /* ShiftySumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD4E254B280E0014C595 /* ShiftySumsTests.swift */; };
+		25034D7825E4793800304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F640254B9589007530A3 /* Info.plist */; };
+		25034D7925E4793800304420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736521252B632200F3914E /* main.swift */; };
+		25034D7A25E4793800304420 /* Trident.xctestplan in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F602254B9301007530A3 /* Trident.xctestplan */; };
+		25034D7B25E4793800304420 /* TridentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FBC9254B15500014C595 /* TridentTests.swift */; };
+		25034D7C25E4793800304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FBCB254B15500014C595 /* Info.plist */; };
+		25034D7D25E4793800304420 /* RSANumbers.xctestplan in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F604254B933A007530A3 /* RSANumbers.xctestplan */; };
+		25034D7E25E4793800304420 /* RSANumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FCB8254B23EE0014C595 /* RSANumbersTests.swift */; };
+		25034D7F25E4793800304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FCBA254B23EE0014C595 /* Info.plist */; };
+		25034D8025E4793800304420 /* iOS_TridentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3325E478DB00304420 /* iOS_TridentApp.swift */; };
+		25034D8125E4793800304420 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3525E478DB00304420 /* ContentView.swift */; };
+		25034D8225E4793800304420 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3725E478F600304420 /* Assets.xcassets */; };
+		25034D8325E4793800304420 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3C25E478F600304420 /* Info.plist */; };
+		25034D8425E4793800304420 /* Preview Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3A25E478F600304420 /* Preview Assets.xcassets */; };
+		25034D8525E4793800304420 /* Trident in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95C252563ED0090B2E0 /* Trident */; };
+		25034D8625E4793800304420 /* TheCellSell in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D969252564CB0090B2E0 /* TheCellSell */; };
+		25034D8725E4793800304420 /* RSANumbers in Sources */ = {isa = PBXBuildFile; fileRef = 0E7364BE2528B54300F3914E /* RSANumbers */; };
+		25034D8825E4793800304420 /* ShiftySums in Sources */ = {isa = PBXBuildFile; fileRef = 0E73651F252B632200F3914E /* ShiftySums */; };
+		25034D8925E4793800304420 /* ISpeakTXTMSG in Sources */ = {isa = PBXBuildFile; fileRef = 0E73652E252B64C800F3914E /* ISpeakTXTMSG */; };
+		25034D8A25E4793800304420 /* TridentTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FBC7254B15500014C595 /* TridentTests.xctest */; };
+		25034D8B25E4793800304420 /* RSANumbersTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FCB6254B23EE0014C595 /* RSANumbersTests.xctest */; };
+		25034D8C25E4793800304420 /* ShiftySumsTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 0E08FD4C254B280E0014C595 /* ShiftySumsTests.xctest */; };
+		25034D8D25E4793800304420 /* ISpeakTXTMSGTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F488254B4C66007530A3 /* ISpeakTXTMSGTests.xctest */; };
+		25034D8E25E4793800304420 /* TheCellSellTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */; };
+		25034D8F25E4793800304420 /* iOS-Trident.app in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3125E478DA00304420 /* iOS-Trident.app */; };
 		252CC63525BF27E000B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736521252B632200F3914E /* main.swift */; };
 		252CC64025BF27EA00B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 		252CC64B25BF27F300B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7364C02528B54400F3914E /* main.swift */; };
@@ -169,6 +231,12 @@
 		0EE0D95E252563ED0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0EE0D969252564CB0090B2E0 /* TheCellSell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheCellSell; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE0D96B252564CB0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		25034D3125E478DA00304420 /* iOS-Trident.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Trident.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25034D3325E478DB00304420 /* iOS_TridentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TridentApp.swift; sourceTree = "<group>"; };
+		25034D3525E478DB00304420 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25034D3725E478F600304420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25034D3A25E478F600304420 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25034D3C25E478F600304420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25EE532325C9DED600F5C995 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCellSellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140D45F25BB3241006B6DBB /* TheCellSellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCellSellTests.swift; sourceTree = "<group>"; };
@@ -233,6 +301,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0EE0D966252564CB0090B2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25034D2E25E478D900304420 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,6 +447,7 @@
 				0E736520252B632200F3914E /* ShiftySums */,
 				0EE0D95D252563ED0090B2E0 /* Trident */,
 				0E7364BF2528B54400F3914E /* RSANumbers */,
+				25034D3225E478DA00304420 /* iOS-Trident */,
 				0EE0D94D252563B00090B2E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -389,6 +465,7 @@
 				0E08FD4C254B280E0014C595 /* ShiftySumsTests.xctest */,
 				0E48F488254B4C66007530A3 /* ISpeakTXTMSGTests.xctest */,
 				8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */,
+				25034D3125E478DA00304420 /* iOS-Trident.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -411,6 +488,26 @@
 				0EE0D96B252564CB0090B2E0 /* main.swift */,
 			);
 			path = TheCellSell;
+			sourceTree = "<group>";
+		};
+		25034D3225E478DA00304420 /* iOS-Trident */ = {
+			isa = PBXGroup;
+			children = (
+				25034D3325E478DB00304420 /* iOS_TridentApp.swift */,
+				25034D3525E478DB00304420 /* ContentView.swift */,
+				25034D3725E478F600304420 /* Assets.xcassets */,
+				25034D3C25E478F600304420 /* Info.plist */,
+				25034D3925E478F600304420 /* Preview Content */,
+			);
+			path = "iOS-Trident";
+			sourceTree = "<group>";
+		};
+		25034D3925E478F600304420 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25034D3A25E478F600304420 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8140D45E25BB3241006B6DBB /* TheCellSellTests */ = {
@@ -578,6 +675,23 @@
 			productReference = 0EE0D969252564CB0090B2E0 /* TheCellSell */;
 			productType = "com.apple.product-type.tool";
 		};
+		25034D3025E478D900304420 /* iOS-Trident */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25034D3F25E478F600304420 /* Build configuration list for PBXNativeTarget "iOS-Trident" */;
+			buildPhases = (
+				25034D2D25E478D900304420 /* Sources */,
+				25034D2E25E478D900304420 /* Frameworks */,
+				25034D2F25E478D900304420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Trident";
+			productName = "iOS-Trident";
+			productReference = 25034D3125E478DA00304420 /* iOS-Trident.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8140D45C25BB3241006B6DBB /* TheCellSellTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8140D46225BB3241006B6DBB /* Build configuration list for PBXNativeTarget "TheCellSellTests" */;
@@ -601,7 +715,7 @@
 		0EE0D944252563B00090B2E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					0E08FBC6254B15500014C595 = {
@@ -631,6 +745,9 @@
 					0EE0D968252564CB0090B2E0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					25034D3025E478D900304420 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					8140D45C25BB3241006B6DBB = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -659,6 +776,7 @@
 				0E08FBC6254B15500014C595 /* TridentTests */,
 				0E7364BD2528B54300F3914E /* RSANumbers */,
 				0E08FCB5254B23EE0014C595 /* RSANumbersTests */,
+				25034D3025E478D900304420 /* iOS-Trident */,
 			);
 		};
 /* End PBXProject section */
@@ -724,6 +842,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25034D2F25E478D900304420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25034D3B25E478F600304420 /* Preview Assets.xcassets in Resources */,
+				25034D3825E478F600304420 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8140D45B25BB3241006B6DBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -774,6 +901,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25034D5725E4793700304420 /* main.swift in Sources */,
+				25034D5825E4793700304420 /* ShiftySums.xctestplan in Sources */,
+				25034D5925E4793700304420 /* j2.01.in in Sources */,
+				25034D5A25E4793700304420 /* j2.01.out in Sources */,
+				25034D5B25E4793700304420 /* j2.02.in in Sources */,
+				25034D5C25E4793700304420 /* j2.02.out in Sources */,
+				25034D5D25E4793700304420 /* j2.03.in in Sources */,
+				25034D5E25E4793700304420 /* j2.03.out in Sources */,
+				25034D5F25E4793700304420 /* j2.04.in in Sources */,
+				25034D6025E4793700304420 /* j2.04.out in Sources */,
+				25034D6125E4793700304420 /* j2.05.in in Sources */,
+				25034D6225E4793700304420 /* j2.05.out in Sources */,
+				25034D6325E4793700304420 /* j2.06.in in Sources */,
+				25034D6425E4793700304420 /* j2.06.out in Sources */,
+				25034D6525E4793700304420 /* j2.07.in in Sources */,
+				25034D6625E4793700304420 /* j2.07.out in Sources */,
+				25034D6725E4793700304420 /* j2.08.in in Sources */,
+				25034D6825E4793700304420 /* j2.08.out in Sources */,
+				25034D6925E4793700304420 /* j2.09.in in Sources */,
+				25034D6A25E4793700304420 /* j2.09.out in Sources */,
+				25034D6B25E4793700304420 /* j2.10.in in Sources */,
+				25034D6C25E4793700304420 /* j2.10.out in Sources */,
+				25034D6D25E4793700304420 /* j2.11.in in Sources */,
+				25034D6E25E4793700304420 /* j2.11.out in Sources */,
+				25034D6F25E4793700304420 /* j2.12.in in Sources */,
+				25034D7025E4793800304420 /* j2.12.out in Sources */,
+				25034D7125E4793800304420 /* j2.13.in in Sources */,
+				25034D7225E4793800304420 /* j2.13.out in Sources */,
+				25034D7325E4793800304420 /* j2.14.in in Sources */,
+				25034D7425E4793800304420 /* j2.14.out in Sources */,
+				25034D7525E4793800304420 /* j2.15.in in Sources */,
+				25034D7625E4793800304420 /* j2.15.out in Sources */,
+				25034D7725E4793800304420 /* ShiftySumsTests.swift in Sources */,
+				25034D7825E4793800304420 /* Info.plist in Sources */,
+				25034D7925E4793800304420 /* main.swift in Sources */,
+				25034D7A25E4793800304420 /* Trident.xctestplan in Sources */,
+				25034D7B25E4793800304420 /* TridentTests.swift in Sources */,
+				25034D7C25E4793800304420 /* Info.plist in Sources */,
+				25034D7D25E4793800304420 /* RSANumbers.xctestplan in Sources */,
+				25034D7E25E4793800304420 /* RSANumbersTests.swift in Sources */,
+				25034D7F25E4793800304420 /* Info.plist in Sources */,
+				25034D8025E4793800304420 /* iOS_TridentApp.swift in Sources */,
+				25034D8125E4793800304420 /* ContentView.swift in Sources */,
+				25034D8225E4793800304420 /* Assets.xcassets in Sources */,
+				25034D8325E4793800304420 /* Info.plist in Sources */,
+				25034D8425E4793800304420 /* Preview Assets.xcassets in Sources */,
+				25034D8525E4793800304420 /* Trident in Sources */,
+				25034D8625E4793800304420 /* TheCellSell in Sources */,
+				25034D8725E4793800304420 /* RSANumbers in Sources */,
+				25034D8825E4793800304420 /* ShiftySums in Sources */,
+				25034D8925E4793800304420 /* ISpeakTXTMSG in Sources */,
+				25034D8A25E4793800304420 /* TridentTests.xctest in Sources */,
+				25034D8B25E4793800304420 /* RSANumbersTests.xctest in Sources */,
+				25034D8C25E4793800304420 /* ShiftySumsTests.xctest in Sources */,
+				25034D8D25E4793800304420 /* ISpeakTXTMSGTests.xctest in Sources */,
+				25034D8E25E4793800304420 /* TheCellSellTests.xctest in Sources */,
+				25034D8F25E4793800304420 /* iOS-Trident.app in Sources */,
+				25034D5625E4792700304420 /* main.swift in Sources */,
 				25652F6625C9E41500A43A75 /* Extension.swift in Sources */,
 				0E7364C12528B54400F3914E /* main.swift in Sources */,
 			);
@@ -812,6 +997,15 @@
 			files = (
 				25EE532425C9DED600F5C995 /* Extension.swift in Sources */,
 				0EE0D96C252564CB0090B2E0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25034D2D25E478D900304420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25034D3625E478DB00304420 /* ContentView.swift in Sources */,
+				25034D3425E478DB00304420 /* iOS_TridentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1202,6 +1396,53 @@
 			};
 			name = Release;
 		};
+		25034D3D25E478F600304420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-Trident/Preview Content\"";
+				DEVELOPMENT_TEAM = W4R3WPMQ2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-Trident/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.rowanharrisstoertz.iOS-Trident";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25034D3E25E478F600304420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-Trident/Preview Content\"";
+				DEVELOPMENT_TEAM = W4R3WPMQ2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-Trident/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.rowanharrisstoertz.iOS-Trident";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		8140D46325BB3241006B6DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1330,6 +1571,15 @@
 			buildConfigurations = (
 				0EE0D96E252564CB0090B2E0 /* Debug */,
 				0EE0D96F252564CB0090B2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25034D3F25E478F600304420 /* Build configuration list for PBXNativeTarget "iOS-Trident" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25034D3D25E478F600304420 /* Debug */,
+				25034D3E25E478F600304420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
