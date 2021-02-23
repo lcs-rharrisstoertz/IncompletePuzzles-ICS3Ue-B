@@ -14,7 +14,7 @@ struct ContentView: View {
         Form {
             TextField("Enter lower limit of range", text: $lower)
             TextField("Enter upper limit of range", text: $upper)
-            Text countOfRSANumbersFrom (lower: lower, upper: upper)
+            Text (countOfRSANumbersFrom (lower: lower, upper: upper))
         }
     }
 }
