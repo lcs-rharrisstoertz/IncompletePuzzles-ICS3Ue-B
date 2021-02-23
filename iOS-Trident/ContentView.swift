@@ -21,7 +21,15 @@ struct ContentView: View {
                 .keyboardType(.numberPad)
             TextField("Enter handle length", text: $handleLength)
                 .keyboardType(.numberPad)
-            Text(drawTrident(tineLength: tineLength, tineSpacing: spacing, handleLength: handleLength))
+            Section(header: "Trident"){
+                Text(drawTrident(tineLength: tineLength, tineSpacing: spacing, handleLength: handleLength))
+            }
         }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
