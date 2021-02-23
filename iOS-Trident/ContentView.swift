@@ -9,18 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var tinelength: String
+    @State private var tineLength: String
     @State private var spacing: String
     @State private var handleLength: String
     
     var body: some View {
         Form {
-            TextField("Enter tine length", text: $tinelength)
+            TextField("Enter tine length", text: $tineLength)
                 .keyboardType(.numberPad)
             TextField("Enter tine spacing", text: $spacing)
                 .keyboardType(.numberPad)
             TextField("Enter handle length", text: $handleLength)
                 .keyboardType(.numberPad)
+            Text(drawTrident(tineLength: tineLength, tineSpacing: spacing, handleLength: handleLength))
         }
     }
 }
