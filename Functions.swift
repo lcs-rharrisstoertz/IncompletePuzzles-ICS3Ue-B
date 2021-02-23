@@ -154,7 +154,7 @@ func translate(phrase shortForm: String) -> String {
         return "talk to you later"
     default:
         return shortForm
-    }} while shortform != "talk to you later"
+    }} while shortForm != "talk to you later"
 
 }
 

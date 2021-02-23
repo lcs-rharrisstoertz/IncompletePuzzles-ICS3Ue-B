@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var upper: Int
-    @State private var lower: Int
+    @State private var upper: String
+    @State private var lower: String
     var body: some View {
         Form {
             TextField("Enter lower limit of range", text: $lower)
             TextField("Enter upper limit of range", text: $upper)
-            Text (countOfRSANumbersFrom (lower: lower, upper: upper))
+            Text (countOfRSANumbersFrom (lower: Int(lower)!, upper: Int(upper)!))
         }
     }
 }
