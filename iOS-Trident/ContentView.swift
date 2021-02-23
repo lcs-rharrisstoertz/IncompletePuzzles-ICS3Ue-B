@@ -12,6 +12,14 @@ struct ContentView: View {
     @State private var tineLength: String
     @State private var spacing: String
     @State private var handleLength: String
+    @State private var output: String
+    
+    private var output: String = {
+        guard let tineLength = Int(tineLength) else { return "Please enter numerical values"}
+        guard let spacing = Int(spacing) else { return "Please enter numerical values"}
+        guard let handleLength = Int(handleLength) else { return "Please enter numerical values"}
+        output = (drawTrident(tineLength: Int(tineLength), tineSpacing: Int(spacing), handleLength: Int(handleLength))
+    }
     
     var body: some View {
         Form {
@@ -22,7 +30,7 @@ struct ContentView: View {
             TextField("Enter handle length", text: $handleLength)
                 .keyboardType(.numberPad)
             Section(header: "Trident"){
-                Text(drawTrident(tineLength: tineLength, tineSpacing: spacing, handleLength: handleLength))
+                Text(output)
             }
         }
     }
