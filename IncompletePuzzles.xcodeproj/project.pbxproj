@@ -117,6 +117,13 @@
 		25034E1C25E480EC00304420 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE532325C9DED600F5C995 /* Extension.swift */; };
 		25034E2825E480F900304420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 		25034E3425E4813B00304420 /* iOS-Trident.app in Sources */ = {isa = PBXBuildFile; fileRef = 25034D3125E478DA00304420 /* iOS-Trident.app */; };
+		25034E4B25E484D600304420 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D9B25E47FB300304420 /* Functions.swift */; };
+		25034E5E25E4851100304420 /* iOS_RSANumbersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034E5D25E4851100304420 /* iOS_RSANumbersApp.swift */; };
+		25034E6025E4851100304420 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034E5F25E4851100304420 /* ContentView.swift */; };
+		25034E6225E4851300304420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25034E6125E4851300304420 /* Assets.xcassets */; };
+		25034E6525E4851300304420 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25034E6425E4851300304420 /* Preview Assets.xcassets */; };
+		25034E7625E4851E00304420 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034D9B25E47FB300304420 /* Functions.swift */; };
+		25034E8325E4852200304420 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EE532325C9DED600F5C995 /* Extension.swift */; };
 		252CC63525BF27E000B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736521252B632200F3914E /* main.swift */; };
 		252CC64025BF27EA00B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 		252CC64B25BF27F300B6C08D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7364C02528B54400F3914E /* main.swift */; };
@@ -245,6 +252,12 @@
 		25034D3A25E478F600304420 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25034D3C25E478F600304420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25034D9B25E47FB300304420 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		25034E5B25E4851100304420 /* iOS-RSANumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-RSANumbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25034E5D25E4851100304420 /* iOS_RSANumbersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_RSANumbersApp.swift; sourceTree = "<group>"; };
+		25034E5F25E4851100304420 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25034E6125E4851300304420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25034E6425E4851300304420 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25034E6625E4851300304420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25EE532325C9DED600F5C995 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCellSellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140D45F25BB3241006B6DBB /* TheCellSellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCellSellTests.swift; sourceTree = "<group>"; };
@@ -316,6 +329,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		25034D2E25E478D900304420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25034E5825E4851100304420 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,6 +477,7 @@
 				0EE0D95D252563ED0090B2E0 /* Trident */,
 				0E7364BF2528B54400F3914E /* RSANumbers */,
 				25034D3225E478DA00304420 /* iOS-Trident */,
+				25034E5C25E4851100304420 /* iOS-RSANumbers */,
 				0EE0D94D252563B00090B2E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -475,6 +496,7 @@
 				0E48F488254B4C66007530A3 /* ISpeakTXTMSGTests.xctest */,
 				8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */,
 				25034D3125E478DA00304420 /* iOS-Trident.app */,
+				25034E5B25E4851100304420 /* iOS-RSANumbers.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -515,6 +537,26 @@
 			isa = PBXGroup;
 			children = (
 				25034D3A25E478F600304420 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25034E5C25E4851100304420 /* iOS-RSANumbers */ = {
+			isa = PBXGroup;
+			children = (
+				25034E5D25E4851100304420 /* iOS_RSANumbersApp.swift */,
+				25034E5F25E4851100304420 /* ContentView.swift */,
+				25034E6125E4851300304420 /* Assets.xcassets */,
+				25034E6625E4851300304420 /* Info.plist */,
+				25034E6325E4851300304420 /* Preview Content */,
+			);
+			path = "iOS-RSANumbers";
+			sourceTree = "<group>";
+		};
+		25034E6325E4851300304420 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25034E6425E4851300304420 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -701,6 +743,23 @@
 			productReference = 25034D3125E478DA00304420 /* iOS-Trident.app */;
 			productType = "com.apple.product-type.application";
 		};
+		25034E5A25E4851100304420 /* iOS-RSANumbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25034E6725E4851300304420 /* Build configuration list for PBXNativeTarget "iOS-RSANumbers" */;
+			buildPhases = (
+				25034E5725E4851100304420 /* Sources */,
+				25034E5825E4851100304420 /* Frameworks */,
+				25034E5925E4851100304420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-RSANumbers";
+			productName = "iOS-RSANumbers";
+			productReference = 25034E5B25E4851100304420 /* iOS-RSANumbers.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8140D45C25BB3241006B6DBB /* TheCellSellTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8140D46225BB3241006B6DBB /* Build configuration list for PBXNativeTarget "TheCellSellTests" */;
@@ -757,6 +816,9 @@
 					25034D3025E478D900304420 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					25034E5A25E4851100304420 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					8140D45C25BB3241006B6DBB = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -786,6 +848,7 @@
 				0E7364BD2528B54300F3914E /* RSANumbers */,
 				0E08FCB5254B23EE0014C595 /* RSANumbersTests */,
 				25034D3025E478D900304420 /* iOS-Trident */,
+				25034E5A25E4851100304420 /* iOS-RSANumbers */,
 			);
 		};
 /* End PBXProject section */
@@ -860,6 +923,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25034E5925E4851100304420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25034E6525E4851300304420 /* Preview Assets.xcassets in Resources */,
+				25034E6225E4851300304420 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8140D45B25BB3241006B6DBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -901,6 +973,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25034E4B25E484D600304420 /* Functions.swift in Sources */,
 				0E48F48B254B4C66007530A3 /* ISpeakTXTMSGTests.swift in Sources */,
 				258B8CBF25BB420A003CFEEA /* main.swift in Sources */,
 			);
@@ -1022,6 +1095,17 @@
 				25034E2825E480F900304420 /* main.swift in Sources */,
 				25034E1C25E480EC00304420 /* Extension.swift in Sources */,
 				25034E1025E480E700304420 /* Functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25034E5725E4851100304420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25034E8325E4852200304420 /* Extension.swift in Sources */,
+				25034E7625E4851E00304420 /* Functions.swift in Sources */,
+				25034E6025E4851100304420 /* ContentView.swift in Sources */,
+				25034E5E25E4851100304420 /* iOS_RSANumbersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1459,6 +1543,53 @@
 			};
 			name = Release;
 		};
+		25034E6825E4851300304420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-RSANumbers/Preview Content\"";
+				DEVELOPMENT_TEAM = W4R3WPMQ2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-RSANumbers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.rowanharrisstoertz.iOS-RSANumbers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25034E6925E4851300304420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-RSANumbers/Preview Content\"";
+				DEVELOPMENT_TEAM = W4R3WPMQ2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-RSANumbers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.rowanharrisstoertz.iOS-RSANumbers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		8140D46325BB3241006B6DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1596,6 +1727,15 @@
 			buildConfigurations = (
 				25034D3D25E478F600304420 /* Debug */,
 				25034D3E25E478F600304420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25034E6725E4851300304420 /* Build configuration list for PBXNativeTarget "iOS-RSANumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25034E6825E4851300304420 /* Debug */,
+				25034E6925E4851300304420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
