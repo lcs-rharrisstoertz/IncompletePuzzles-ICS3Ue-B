@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var upper: Int
+    @State private var lower: Int
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Form {
+            TextField("Enter lower limit of range", text: $lower)
+            TextField("Enter upper limit of range", text: $upper)
+            Text countOfRSANumbersFrom (lower: lower, upper: upper)
+        }
     }
 }
 
